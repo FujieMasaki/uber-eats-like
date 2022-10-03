@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { BaseButton } from "../shared_style";
-import { FONT_SIZE } from "../../styled.constants";
+import { FONT_SIZE } from "../../styled_constants";
 
 export const OrderButton = styled(BaseButton)`
   width: 390px;
