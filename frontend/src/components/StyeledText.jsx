@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS, FONT_SIZE, FRONT_SIZE } from "../styled.constants";
+import { COLORS, FONT_SIZE, FRONT_SIZE } from "../styled_constants";
 
 export const SubText = styled.p`
   color: ${COLORS.SUB_TEXT};

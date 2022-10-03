@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { SubText } from "./StyeledText";
 
-import { COLORS } from "../styled.constants";
+import { COLORS } from "../styled_constants";
 
 const Wrapper = styled.div`
   display: flex;
