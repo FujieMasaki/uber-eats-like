@@ -1,3 +1,4 @@
+# 定数はすべて大文字で記述
 class Restaurant < ApplicationRecord
     has_many :foods
     has_many :line_foods, through: :foods
