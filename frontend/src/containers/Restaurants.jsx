@@ -17,15 +17,7 @@ import { Link } from "react-router-dom";
 import Skeleton from "@material-ui/lab/Skeleton";
 import { REQUEST_STATE } from "../constants";
 
-const HeaderWrapper = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  padding: 8px 32px;
-`;
-
-const MainLogoImage = styled.img`
-  height: 90px;
-`;
+import { HeaderWrapper, MainLogoImage } from "../components/StyledHeader.jsx";
 
 const MainCoverImageWrapper = styled.div`
   text-align: center;
